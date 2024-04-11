@@ -1,0 +1,124 @@
+/* $bg-color: #f1e9da;
+$link-text-color: #fff;
+$button-bg-1: #541388;
+$button-bg-2: #d90368;
+$button-bg-3: #104547;
+$button-bg-4: #4f000b;
+$button-bg-5: #f28123;
+$border-radius: 6px;
+$overlay-color: #fff; */
+
+.divtoflexlogoconnectwallet {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  z-index: 20;
+}
+
+.smartlogportal {
+  width: 17vw;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #fef100;
+  color: #191918;
+  border: none;
+  font-size: 1vw;
+  font-weight: 500;
+  border-radius: 5vw;
+  margin-top: 20px;
+  margin-right: 7vw;
+  cursor: pointer;
+  padding: 15px 30px;
+  width: 13vw;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button:hover {
+  font-weight: 600;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .button{
+    width: 15vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .smartlogportal {
+    width: 25vw;
+    margin-left: 2vw;
+  }
+  .button {
+    font-size: 1.5vw;
+    border-radius: 4vw;
+    margin-top: 30px;
+    margin-right: 5vw;
+    padding: 10px 20px;
+    width: 16vw;
+  }
+}
+@media only screen and (max-width: 617px) {
+  .smartlogportal {
+    width: 25vw;
+    margin-left: 2vw;
+  }
+  .button {
+    font-size: 1.5vw;
+    border-radius: 4vw;
+    margin-top: 30px;
+    margin-right: 5vw;
+    padding: 10px 15px;
+    width: 16vw;
+  }
+}
+@media only screen and (max-width: 617px) {
+  .smartlogportal {
+    width: 25vw;
+    margin-left: 2vw;
+  }
+  .button {
+    font-size: 1.5vw;
+    border-radius: 4vw;
+    margin-top: 30px;
+    margin-right: 7vw;
+    padding: 10px 15px;
+    width: 19vw;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .smartlogportal {
+    width: 35vw;
+    margin-top: 25px;
+    margin-left: 2vw;
+  }
+
+  .button {
+    width: 22vw;
+    font-size: 2vw;
+    padding: 1vh 2.5vw;
+    margin-top: 4vh;
+    margin-right: 6vw;
+  }
+}
