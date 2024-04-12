@@ -113,7 +113,13 @@
 
 @media screen and (min-width:1800px){
   .right{
-    /* height:45vh; */
+    height:44vh;
+    width: 69%;
+  }
+
+  .left{
+    width: 28.5%;
+    height: 98%;
   }
   .flower{
     height: 50vh;
