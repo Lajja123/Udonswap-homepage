@@ -2,7 +2,7 @@
 import Image from "next/image";
 import styles from "./page.module.scss";
 import flower from './flower.png'
-import star from './star.svg'
+import star from "./star.svg"
 import udonswap from './Udonswap.gif'
 import Navbar from './navbar'
 
