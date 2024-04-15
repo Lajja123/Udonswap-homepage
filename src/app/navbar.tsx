@@ -1,6 +1,6 @@
 import Image from "next/image";
 import logo from "./UdonSwapLogo.png";
-import navStyle from "./navbar.module.css";
+import navStyle from "./navbar.module.scss";
 import Link from "next/link";
 
 export default function Navbar() {
