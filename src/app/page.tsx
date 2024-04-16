@@ -5,6 +5,7 @@ import flower from './flower.png'
 import star from "./star.svg"
 import udonswap from './Udonswap.gif'
 import Navbar from './navbar'
+import clip from '@/app/video.mp4'
 
 export default function Home() {
   return (
@@ -25,7 +26,13 @@ export default function Home() {
 
       <div className={styles.boxContainer2}>
         <div className={styles.left}>
-        <Image src={udonswap} loading="lazy"  alt="logo" className={styles.tokenImg} />
+        {/* <Image src={udonswap} loading="lazy"  alt="logo" className={styles.tokenImg} /> */}
+        <video autoPlay loop controls className={styles.tokenImg}>
+          {/* <source src="/src/app/video.mp4" type="video/mp4" /> */}
+          <source src={clip} type="video/mp4" />
+          {/* <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4" /> */}
+                Your browser does not support the video tag.
+            </video>
         </div>
 
         <div className={styles.right}>
